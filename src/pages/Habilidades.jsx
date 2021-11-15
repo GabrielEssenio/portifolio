@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Contato, Footer } from "../components";
-import * as S from '../styles/Habilidades';
+import * as S from "../styles/Habilidades";
 import { CardsHabilidades } from "../components/CardsHabilidades";
 
 import {
@@ -15,15 +15,26 @@ const Habilidades = () => {
     <>
       <Header />
       <S.contentHabilidades>
-      <CardsHabilidades title="Front-End" skills={skillFront} color="orange" />
-      <CardsHabilidades title="Back-End" skills={skillBack} color="red" />
-      <CardsHabilidades title="Language" skills={skillLanguage} color="green" />
-      <CardsHabilidades title="Ferramentas" skills={skillFerramenta} color="blue" />
+        <CardsHabilidades
+          title="Front-End"
+          skills={skillFront}
+          color="orange"
+        />
+        <CardsHabilidades title="Back-End" skills={skillBack} color="red" />
+        <CardsHabilidades
+          title="Language"
+          skills={skillLanguage}
+          color="green"
+        />
+        <CardsHabilidades
+          title="Ferramentas"
+          skills={skillFerramenta}
+          color="blue"
+        />
       </S.contentHabilidades>
+      <Contato />
+      <Footer />
     </>
-
-    
-
   );
 };
 

@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const content = styled.main`
 width: 50vw;
-${props =>props.color}
 display: flex;
 flex-direction: column;
 border-radius: 5px;
@@ -30,10 +29,8 @@ overflow: hidden;
 
 
 export const liHabilidades = styled.li` 
-
 padding-bottom: 7px;
 padding-top: 7px;
-
 `
 
 export const titleHabilidade = styled.h3`

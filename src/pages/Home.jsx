@@ -1,9 +1,6 @@
 import React from "react";
 import { Header,Hero, Contato, Footer } from "../components";
 
-
-
-
 const Home = () => {
   return ( 
     <>
@@ -13,6 +10,7 @@ const Home = () => {
         <Contato />
         <Footer />
       </main>
+      
     </>
   );
 };

@@ -6,10 +6,12 @@ import {
   Projetos, 
   Sobremim
 } from './pages/index'
-
+import GlobalStyles from './styles/globalStyles.js'
 
 const App = () => {
   return (
+    <>
+    <GlobalStyles/>
     <div>
       <Switch>
         <Route exact path="/" component={ Home } />
@@ -18,6 +20,7 @@ const App = () => {
         <Route path="/sobremim" component={ Sobremim } />
       </Switch>
     </div>
+    </>
   );
 }
 

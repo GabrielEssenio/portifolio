@@ -1,18 +1,20 @@
-import React from 'react'
-import * as S from '../styles/ContatoStyle.js';
-
+import React from "react";
+import * as S from "../styles/ContatoStyle.js";
+import { contatos } from "../APIs/contatos";
+import CardContatos from "./CardContatos";
 const Contato = () => {
   return (
-    <main>
-      <S.container>
-        <S.links href ="">Linkedin</S.links>
-        <S.links href ="">GitHub</S.links>
-        <S.links href ="">+55() 9*** -***</S.links>
-        <S.links href ="">Email</S.links>
-        <S.links href ="">Curriculo</S.links>
-      </S.container>
-    </main>
-  )
-}
+    <S.mainContentContato>
+      <h1>Entre em Contato</h1>
+      <S.contentDiv>
+        <S.subDiv>
+        {contatos.map((contato) => (
+          <CardContatos allContatos={contato} />
+        ))}
+        </S.subDiv>
+      </S.contentDiv>
+    </S.mainContentContato>
+  );
+};
 
-export default Contato
+export default Contato;
