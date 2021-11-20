@@ -10,10 +10,12 @@ padding: 30px;
 margin: 20px;
 width: 400px;
 transition: all 0.3s ease-out;
-border-left: 10px solid ${props =>props.color};
+background-color: #222831;
+border-left: 10px solid #F05454;
 &:hover {
-  transform: translateY(-5px);
-  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 `
 
@@ -31,9 +33,13 @@ overflow: hidden;
 export const liHabilidades = styled.li` 
 padding-bottom: 7px;
 padding-top: 7px;
+font-size: 24px;
+color: #DDDDDD;
 `
 
 export const titleHabilidade = styled.h3`
+font-size: 32px;
+color: #DDDDDD;
 text-align: center;
 align-items: center;
 `

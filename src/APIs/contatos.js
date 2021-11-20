@@ -1,10 +1,10 @@
 export const contatos = [
    {
-    image: "https://cdn.icon-icons.com/icons2/1211/PNG/512/1491579602-yumminkysocialmedia36_83067.png",
+    image: "https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg",
     url:"https://www.instagram.com/gabrielessenio/",
     name: "Instagram"
   },  {
-    image: "https://cdn.icon-icons.com/icons2/923/PNG/512/telegram_icon-icons.com_72055.png",
+    image: "https://www.vectorlogo.zone/logos/telegram/telegram-tile.svg",
     url:"https://t.me/gabrielessenio",
     name: "Telegram"
   },  {

@@ -5,7 +5,7 @@ import CardContatos from "./CardContatos";
 const Contato = () => {
   return (
     <S.mainContentContato>
-      <h1>Entre em Contato</h1>
+      <h1>MEUS CONTATOS</h1>
       <S.contentDiv>
         <S.subDiv>
         {contatos.map((contato) => (

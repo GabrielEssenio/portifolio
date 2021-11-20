@@ -16,8 +16,8 @@ padding: 0;
 height: 7vh;
 width: 80%;
 border-radius: 5px;
+background-color: #30475E;
 box-shadow: 7px 7px 13px 13px rgba(50, 50, 50, 0.22);
-background-color: #90e0ef;
 justify-content:space-evenly;
 `
 export const ulBar = styled.ul`
@@ -32,11 +32,13 @@ overflow: hidden;
 export const liBar = styled.li` 
 padding: 0px 10px;
 &:hover {
-  background-color: red;
+  opacity: 0.5;
 }
 `
 
 export const aBar = styled.a`
-color: black;
+color: #DDDDDD;
+font-size: 20px;
+color: white;
 text-decoration: none;
 ` 

@@ -10,9 +10,9 @@ const Sobremim = () => {
       <S.globalSobremim>
         <h1>Um pouco sobre mim</h1>
         <S.mainSobremim>
-          <div>
+    
             <S.imgSobremim src={basic.image} alt="" />
-          </div>
+     
           <S.mainUl>
             <S.ulSobremim>
               {info.map(({ about }) => (

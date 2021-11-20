@@ -8,33 +8,45 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 align-items: center;
-background-color: white;
-
 `
 
 export const mainProjetos = styled.main` 
-padding-bottom: 50px;
-background-color: black;
 display: flex;
-justify-content:center;
-flex-wrap: wrap;
-flex-direction: row;
+background-color: #222831;
+transition: all 0.3s ease-out;
+border-left: 10px solid #F05454;
 border-radius: 5px;
 box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-padding: 30px;
+width: 30%;
+padding: 50px;
 margin: 20px;
-width: 45vw;
-transition: all 0.3s ease-out;
-border-left: 10px solid ${props => props.color};
 &:hover {
-  transform: translateY(-5px);
-  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 `
+
+export const scrollProjetos = styled.div` 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100vw;
+height: 100%;
+`
+
+export const titleProjetos = styled.h2` 
+text-align: center;
+color: #222831;
+;
+`
+
+
+
 export const titleProject = styled.h2` 
 text-align: center;
-color: white;
+color: #DDDDDD;
 `
 
 export const imgProjetos = styled.img` 

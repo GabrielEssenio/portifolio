@@ -6,15 +6,13 @@ display:flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
-background-color: white;
 `
 
 export const mainSobremim = styled.main` 
 display: flex;
 flex-direction: row;
-padding-bottom: 7px;
-padding-top: 7px;
 align-items: center;
+justify-content: space-around;
 `
 
 export const imgSobremim = styled.img` 
