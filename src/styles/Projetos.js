@@ -12,9 +12,9 @@ align-items: center;
 
 export const mainProjetos = styled.main` 
 display: flex;
-background-color: #222831;
+background-color: #203856;
 transition: all 0.3s ease-out;
-border-left: 10px solid #F05454;
+border-left: 10px solid #e36900;
 border-radius: 5px;
 box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
 width: 30%;
@@ -36,13 +36,14 @@ width: 100vw;
 height: 100%;
 `
 
-export const titleProjetos = styled.h2` 
+export const titleProjetos = styled.h1` 
 text-align: center;
-color: #222831;
+padding-top: 50px;
+padding-bottom: 50px;
+color: #060401;
+font-size:36px;
 ;
 `
-
-
 
 export const titleProject = styled.h2` 
 text-align: center;
@@ -68,11 +69,11 @@ width: 100%;
 
 export const a = styled.a` 
 width: 100%;
-margin-right:20px ;
+margin-right:20px;
 `
 
 export const textProjeto = styled.p` 
-color:white;
+color:#EEEFEF;
 size: 20px;
 text-align: justify;
 `

@@ -7,7 +7,7 @@ import {
   Sobremim
 } from './pages/index'
 import GlobalStyles from './styles/globalStyles.js'
-
+import './App.css';
 const App = () => {
   return (
     <>

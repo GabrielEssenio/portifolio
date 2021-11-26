@@ -8,7 +8,7 @@ const Sobremim = () => {
     <div>
       <Header />
       <S.globalSobremim>
-        <h1>Um pouco sobre mim</h1>
+        <S.titleText>Um pouco sobre mim</S.titleText>
         <S.mainSobremim>
     
             <S.imgSobremim src={basic.image} alt="" />

@@ -16,13 +16,14 @@ export const eachContato = styled.div`
 padding-right: 40px;
 transition: all 0.3s ease-out;
 &:hover {
-  transform: translateY(-10px);
-  cursor: pointer;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 `;
 
 export const imgContato = styled.img`
-  width: 70px;
+  width: 50px;
 `;
 
 export const subDiv = styled.div`
@@ -30,3 +31,10 @@ display: flex;
 flex-direction: row;
 `;
 
+export const titleContatos = styled.h1`
+color: #060401;
+font-size: 36px;
+margin-bottom:20px;
+margin-top:60px ;
+
+`;

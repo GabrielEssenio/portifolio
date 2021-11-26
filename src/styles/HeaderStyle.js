@@ -5,8 +5,6 @@ import styled from 'styled-components';
 export const mainContentNav = styled.nav` 
 display: flex;
 justify-content: center;
-margin: 0;
-padding: 0;
 `
 
 export const navBarContainer = styled.nav` 
@@ -16,9 +14,9 @@ padding: 0;
 height: 7vh;
 width: 80%;
 border-radius: 5px;
-background-color: #30475E;
+background-color: #060401;
 box-shadow: 7px 7px 13px 13px rgba(50, 50, 50, 0.22);
-justify-content:space-evenly;
+justify-content: space-around;
 `
 export const ulBar = styled.ul`
 align-items: center;
@@ -37,8 +35,7 @@ padding: 0px 10px;
 `
 
 export const aBar = styled.a`
-color: #DDDDDD;
 font-size: 20px;
-color: white;
+color: #FFC500;
 text-decoration: none;
 ` 

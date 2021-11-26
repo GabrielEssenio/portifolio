@@ -10,8 +10,8 @@ padding: 30px;
 margin: 20px;
 width: 400px;
 transition: all 0.3s ease-out;
-background-color: #222831;
-border-left: 10px solid #F05454;
+background-color: #203856;
+border-left: 10px solid #e36900;
 &:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -34,14 +34,16 @@ export const liHabilidades = styled.li`
 padding-bottom: 7px;
 padding-top: 7px;
 font-size: 24px;
-color: #DDDDDD;
+color: #f1f4fa;
+
 `
 
 export const titleHabilidade = styled.h3`
 font-size: 32px;
-color: #DDDDDD;
+color: #f1f4fa;
 text-align: center;
 align-items: center;
+text-decoration: underline wavy #e36900;
 `
 
 export const mainTitle = styled.h1`

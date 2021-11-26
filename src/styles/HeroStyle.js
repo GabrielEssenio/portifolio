@@ -1,11 +1,16 @@
 import styled from 'styled-components';
+import heroimage from '../images/blackyellor.jpg'
+// import heroimage2 from '../images/heroportifolio2.jpg'
+// import heroimage3 from '../images/heroportifolio3.jpg'
 
 export const mainHero = styled.main`
 width: 100vw;
 height: 80vh;
-background-size: cover;
-background-image: url('https://media0.giphy.com/media/1nbweFkb6kqVhNCwJ4/giphy.gif?cid=790b761168a3bfdb6d5442cdffbe7be77b478dc6d1a5e501&rid=giphy.gif&ct=g');
+background-size: cover, contain;
+background-repeat: no-repeat;
+background-image: url(${heroimage});
 position: relative;
+
 `
 
 export const h1Hero = styled.h1`
