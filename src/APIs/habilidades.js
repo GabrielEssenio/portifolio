@@ -86,12 +86,7 @@ export const skillBack = [
     name: "Padão MSC",
     level: "Intermediate",
     
-  },
-  {
-    name: "Padão MVC",
-    level: "Intermediate",
-    
-  }, 
+  } 
  ];
 
 export const skillTest = [{

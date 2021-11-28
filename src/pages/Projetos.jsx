@@ -16,10 +16,10 @@ const Projetos = () => {
     <>
       <Header />
       <S.globalProjetos>
-      <S.titleProjetos>PROJETOS</S.titleProjetos>
+      <S.titleProjetos>MEUS PROJETOS</S.titleProjetos>
       <S.scrollProjetos>
         {projects.map(({name, githubUrl, image, description}) =>(
-           <ProjetosCards name={name} githubUr={githubUrl} image={image} description={description} />))}
+           <ProjetosCards name={name} githubUrl={githubUrl} image={image} description={description} />))}
       </S.scrollProjetos>
       </S.globalProjetos>
       <Contato />

@@ -1,41 +1,44 @@
 import styled from 'styled-components';
 
-
-
-export const mainContentNav = styled.nav` 
-display: flex;
-justify-content: center;
-`
-
 export const navBarContainer = styled.nav` 
 display: flex;
-margin: 0;
-padding: 0;
-height: 7vh;
-width: 80%;
-border-radius: 5px;
-background-color: #060401;
-box-shadow: 7px 7px 13px 13px rgba(50, 50, 50, 0.22);
-justify-content: space-around;
+height: 10vh;
+width: 100%;
+z-index: 1;
+
+  background: linear-gradient(
+    270deg,
+    hsla(210, 100%, 35%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(210, 100%, 35%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  );
 `
+
 export const ulBar = styled.ul`
+display: flex;
 align-items: center;
 margin: 0;
 padding: 0;
-display: flex;
-list-style-type: none;
-overflow: hidden;
+/* list-style: none; */
+width: 100%;
+justify-content: space-around;
 `
 
 export const liBar = styled.li` 
-padding: 0px 10px;
-&:hover {
-  opacity: 0.5;
-}
+display: flex;
+justify-content: space-between;
+&:hover{
+    text-shadow: 0px -2px 0px rgba(0,0,0,1), 0 0 5px rgba(255,255,255,0.8),0 -4px 15px rgba(255,255,255,0.5);
+  }
 `
 
 export const aBar = styled.a`
-font-size: 20px;
-color: #FFC500;
+font-size: x-large;
 text-decoration: none;
-` 
+color: #F5F5F5;
+`

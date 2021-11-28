@@ -32,7 +32,7 @@ flex-direction: row;
 `;
 
 export const titleContatos = styled.h1`
-color: #060401;
+color: #F5F5F5;
 font-size: 36px;
 margin-bottom:20px;
 margin-top:60px ;

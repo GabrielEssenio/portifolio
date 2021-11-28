@@ -2,7 +2,6 @@ import React from 'react'
 import * as S from '../styles/HeroStyle.js';
 import Typewriter from 'typewriter-effect';
 
-
 const Hero = () => {
 
   const timea = new Date();  
@@ -21,11 +20,13 @@ const Hero = () => {
       <S.h1Hero>
       <Typewriter
   options={{
-    strings: [`${bemVindo}, Sou Gabriel Essênio`],
+    strings: [`${bemVindo}, Meu nome é Gabriel Essênio`],
     autoStart: true,
     loop: true,
   }} />
-      </S.h1Hero>
+      Sou Desenvolvedor Full Stack <br/> 
+   
+      </S.h1Hero> 
     </S.mainHero>
   )
 }

@@ -21,6 +21,9 @@ const Habilidades = () => {
   return (
     <>
       <Header />
+
+<S.titleHabilidades>Minhas Hard Skills</S.titleHabilidades>
+
       <S.contentHabilidades data-aos="zoom-in-up">
         <CardsHabilidades
           title="Front-End"

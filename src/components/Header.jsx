@@ -12,24 +12,22 @@ const Header = () => {
   };
 
 
-  const scrollToBottom = () =>{ 
-    window.scrollTo({ 
-      top: document.documentElement.scrollHeight, 
-      behavior: 'auto'
-    }); 
-  }; 
+  // const scrollToBottom = () =>{ 
+  //   window.scrollTo({ 
+  //     top: document.documentElement.scrollHeight, 
+  //     behavior: 'auto'
+  //   }); 
+  // }; 
 
   return (
-    <S.mainContentNav>
-
     <S.navBarContainer>
       <S.ulBar>
         <S.liBar>
           <S.aBar href="/">Home</S.aBar>
         </S.liBar>
-        <S.liBar>
+        {/* <S.liBar>
           <S.aBar href="sobremim">Sobre Mim</S.aBar>
-        </S.liBar>
+        </S.liBar> */}
         <S.liBar>
           <S.aBar href="habilidades">Habilidades</S.aBar>
         </S.liBar>
@@ -37,16 +35,14 @@ const Header = () => {
           <S.aBar href="projetos">Projetos</S.aBar>
         </S.liBar>
         <S.liBar>
-          
         <S.aBar onClick={saveFile}>Download CV</S.aBar>
-          {/* <S.aBar href="#">Download</S.aBar> */}
         </S.liBar>
-        <S.liBar>
+        {/* <S.liBar>
         <S.aBar onClick={scrollToBottom}>Contato</S.aBar>
-        </S.liBar>
+      </S.liBar> */}
+        <div class="underbar"></div>
       </S.ulBar>
     </S.navBarContainer>
-    </S.mainContentNav>
   );
 };
 
