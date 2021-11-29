@@ -1,4 +1,3 @@
-import perfil from '../images/PerfilGabriel.jpeg'
 import perfilImg from '../images/imgGabriel.jpeg'
 
 export const basic = {
