@@ -23,16 +23,17 @@ const Header = () => {
     <S.navBarContainer>
       <S.ulBar>
         <S.liBar>
-          <S.aBar href="/">Home</S.aBar>
+          <S.LinkNav to="/">Home</S.LinkNav>
         </S.liBar>
         {/* <S.liBar>
           <S.aBar href="sobremim">Sobre Mim</S.aBar>
         </S.liBar> */}
         <S.liBar>
-          <S.aBar href="habilidades">Habilidades</S.aBar>
+          <S.LinkNav to="/habilidades">Habilidades</S.LinkNav>
+          {/* <S.aBar href="habilidades">Habilidades</S.aBar> */}
         </S.liBar>
         <S.liBar>
-          <S.aBar href="projetos">Projetos</S.aBar>
+        <S.LinkNav to="projetos">Projetos</S.LinkNav>
         </S.liBar>
         <S.liBar>
         <S.aBar onClick={saveFile}>Download CV</S.aBar>

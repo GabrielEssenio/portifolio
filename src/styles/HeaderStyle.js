@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
 
 export const navBarContainer = styled.nav` 
 display: flex;
@@ -36,9 +37,14 @@ justify-content: space-between;
     text-shadow: 0px -2px 0px rgba(0,0,0,1), 0 0 5px rgba(255,255,255,0.8),0 -4px 15px rgba(255,255,255,0.5);
   }
 `
-
 export const aBar = styled.a`
-font-size: x-large;
+font-size: xx-large;
+text-decoration: none;
+color: #F5F5F5;
+`
+
+export const LinkNav = styled(Link)`
+font-size: xx-large;
 text-decoration: none;
 color: #F5F5F5;
 `
