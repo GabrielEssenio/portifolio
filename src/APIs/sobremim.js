@@ -11,9 +11,9 @@ export const basic = {
 export const info = [
   {about: " Sou formado em Analise e Desenvolvimento de Sistemas pela UniCeub"},
   {about: " Sou estudante da Trybe"},
-  {about: " No momento estou estudando Socket"},
+  {about: " No momento estou estudando Python3"},
   {about: " Nível de Ingês: Upper Intermediate"},
   {about: " Procurando por uma vaga de emprego como Dev Junior"},
-  {about: " Hobbies: Correr no Parque | Jogar Video Game | Ouvir Musica | Ler Livros"},
+  {about: " Hobbies que amo: Gosto de Correr no Parque | Jogar Video Game | Acampar"},
   {about: " Moro em Belo Horizonte"},
 ]
