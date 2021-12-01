@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const mainHero = styled.main`
-width: 100vw;
+width: 100%;
 height: 20vh;
 `
 export const h1Hero = styled.h1`

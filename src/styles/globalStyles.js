@@ -21,7 +21,7 @@ function shadow() {
 const GlobalStyle = createGlobalStyle`
 *{
   font-family: 'Kalam', cursive;
-  margin: 0
+  margin: 0;
 }
   body {
     margin: 0;

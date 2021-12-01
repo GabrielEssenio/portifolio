@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const contentHabilidades = styled.main`
-width: 100vw;
+width: 100%;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
@@ -47,7 +47,6 @@ padding: 20px 0px;
 `
 
 export const ulHabilidades = styled.ul` 
-width: 45vw;
 display: flex;
 flex-direction:column;
 border-radius: 5px;
@@ -55,6 +54,10 @@ padding-left: 40px;
 `
 
 export const liHabilidades = styled.li` 
+display:flex;
+width: 100%;
+
+flex-direction:column;
 padding-bottom: 7px;
 padding-top: 7px;
 font-size: 24px;
